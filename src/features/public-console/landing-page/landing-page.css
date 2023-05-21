@@ -1,0 +1,165 @@
+.bg-section-first {
+  background-image: url('../../../assets/images/mainbg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 135vh;
+
+}
+
+.text-head {
+    font-size:55px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.text-description {
+    font-size: 14px;
+    color: #fff;
+}
+
+.pl8 {
+    padding-left: 8rem;
+}
+
+.tabs {
+    background-color: #50CCFE;
+    border-radius: 8px;
+    padding: 0.8rem 0.5rem;
+    font-size: 12px;
+}
+
+.active {
+    background: #fff;
+    border-radius: 6px;
+    padding: 6px;
+    color: #233C77;
+}
+
+.pad-section {
+    padding: 6px 4rem 0px 17rem;
+    position: relative;
+    z-index: 9;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    color: #fff;
+    padding-left: 1.5rem;
+    font-size: 14px;
+    font-weight: 400;
+    
+    display: flex;
+    align-items: center;
+
+}
+
+.payment-head {
+    color: #50CCFE;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.payment-description {
+    color: #1E336B;
+    font-size: 30px;
+}
+
+.iphone-img {
+    position: absolute;
+    top: -58px;
+}
+
+.bg-gray {
+    background-color: #F3F3F3;
+    padding: 3rem 2rem;
+}
+
+.bg-white {
+    background-color: #fff;
+    padding: 3rem 2rem;
+    height: 100%
+}
+
+.text-left-border {
+    border-left: 2px solid #1E336B;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 1rem;
+    color: #1E336B;
+}
+
+.text-left-border-white {
+    border-left: 2px solid #fff;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 1rem;
+    color: #fff;
+}
+
+.bg-skyblue {
+    background-color: #EBF2F9;
+}
+
+.center-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.ht-540 {
+    height: 540px;
+}
+
+.bg-agency-banking {
+    background-image: url('../../../assets/images/agency-banking.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.blue {
+    color: #233C77;
+}
+
+.white {
+    color: #fff !important
+}
+
+.bg-img {
+    background-image: url('../../../assets/images/edgecut.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pt7 {
+    padding-top: 7rem;
+}
+
+.iphone-img-second {
+    position: absolute;
+    top: -57px;
+    width: 25%;
+    right: 199px;
+}
+
+.arrow{
+    position: absolute;
+    bottom: -78px;
+}
