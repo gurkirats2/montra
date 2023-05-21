@@ -1,14 +1,14 @@
 .bg-section-first {
-  background-image: url('../../../assets/images/mainbg.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 135vh;
+    background-image: url('../../../assets/images/mainbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 135vh;
 
 }
 
 .text-head {
-    font-size:55px;
+    font-size: 55px;
     font-weight: 600;
     color: #fff;
 }
@@ -58,7 +58,7 @@ li {
     padding-left: 1.5rem;
     font-size: 14px;
     font-weight: 400;
-    
+
     display: flex;
     align-items: center;
 
@@ -142,10 +142,12 @@ li {
 }
 
 .bg-img {
-    background-image: url('../../../assets/images/edgecut.png');
+    background-image: url('../../../assets/images/edgecut1.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 160vh;
+    background-color: #EBF2F9;
 }
 
 .pt7 {
@@ -159,7 +161,17 @@ li {
     right: 199px;
 }
 
-.arrow{
+.arrow {
     position: absolute;
     bottom: -78px;
+}
+
+.pt22 {
+    padding-top: 16rem;
+}
+
+.arrow1 {
+    position: absolute;
+    bottom: -84px;
+    left: 0px;
 }

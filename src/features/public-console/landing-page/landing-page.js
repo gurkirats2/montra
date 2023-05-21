@@ -241,7 +241,7 @@ function LandingPage() {
 
 
             {/* section 4 */}
-            <section className="row bg-skyblue">
+            <section className="row bg-skyblue pb-5">
                 <div className="col-6">
                     <div className="row">
                         <div className="col-8">
@@ -315,7 +315,7 @@ function LandingPage() {
             </section>
 
             {/* section 5 */}
-            <section className="bg-img pl8 pt7">
+            <section className="bg-img pl8 pt22 p-relative">
                 <div className="row">
                     <div className="col-6 center-div">
                         <div className="payment-head">Lending</div>
@@ -336,7 +336,7 @@ function LandingPage() {
                 </div>
 
 
-                <div className="col-8 mt-5 pt-5">
+                <div className="col-8 mt-5">
                     <div className="row white">
                         <div className="col-4">
                             <div className="text-left-border-white">Compare Loan Offers</div>
@@ -377,6 +377,125 @@ function LandingPage() {
                         </section>
                     </div>
 
+                </div>
+
+                <div className="arrow1">
+                    <img src={arrow} alt="" />
+                </div>
+            </section>
+
+            {/* section 6 */}
+
+            <section className="row pl8 mt-5 py-5 ht-540">
+                <div className="col-7 m-auto">
+                    <img src={banking} alt="" />
+                </div>
+                <div className="col-5 center-div">
+                    <div className="payment-head">Insurance</div>
+                    <div className="payment-description py-3">
+                        <span className="fw-700">Compare Insurance Policy <br />
+                            Premiums</span> and Features to buy <br /> the <span className="fw-700"> most suitable plan from <br />
+                            our Insurance Partners</span>
+                    </div>
+                    <button className="download-btn blue w-40">Download
+                        <img src={montraFinal} className="px-1" alt="" />
+                        <img src={applelogo} alt="" />
+                        <img src={googleLogo} className="pl-1" alt="" />
+                    </button>
+                </div>
+            </section>
+
+            <div className="col-9 mt-5 pl8">
+                <div className="row">
+                    <div className="col-4">
+                        <div className="text-left-border">Compare Insurance Plans</div>
+                        <div className="mt-3 col-8">
+                            Customers can apply for variety of Insurance Products and compare the plans for the premium amounts and features towards making a more informed decision
+                        </div>
+                    </div>
+
+                    <div className="col-4">
+                        <div className="text-left-border">View Policy Details</div>
+                        <div className="mt-3 col-8">
+                            Now customers can find details of all the polices purchased on Montra Personal app in their pocket
+                        </div>
+                    </div>
+
+                    <div className="col-4">
+                        <div className="text-left-border">Renew Insurance Policies</div>
+                        <div className="mt-3 col-8">
+                            Customers can easily renew the existing policies on Montra Personal app
+                        </div>                    </div>
+                </div>
+            </div>
+
+            {/* section 7 */}
+            <section className="row pl8 mt-5 py-5 ht-540 bg-skyblue">
+                <div className="col-6 center-div">
+                    <div className="payment-head">Investment</div>
+                    <div className="payment-description py-3">
+                        <span className="fw-700">Compare  best investment <br /> plans </span> available towards <br /> maximizing your returns
+                    </div>
+                    <button className="download-btn blue w-40">Download
+                        <img src={montraFinal} className="px-1" alt="" />
+                        <img src={applelogo} alt="" />
+                        <img src={googleLogo} className="pl-1" alt="" />
+                    </button>
+                    <div className="row  mt-5">
+                        <div className="col-6">
+                            <div className="blue font-20 fw-700">Compare Fixed Deposit rates</div>
+                            <div className="mt-3 col-8">
+                                Customers can compare Fixed Deposit rates available from our Banking Partners and park deposits where the returns are most attractive                            </div>
+                        </div>
+
+                        <div className="col-6">
+                            <div className="blue font-20 fw-700">Compare and Invest in Mutual Funds</div>
+                            <div className="mt-3 col-8">
+                                Customers can Compare best Investment plans available towards maximizing your returns                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div className="col-6 m-auto">
+                    <img src={banking} alt="" />
+                </div>
+
+            </section>
+
+            {/* section-8 */}
+
+            <section className="bg-img  pl8 pt22 p-relative">
+                <div className="row">
+
+                    <div className="col-6 m-auto">
+                        <div className="p-relative">
+                            <img src={lending} alt="" />
+                        </div>
+                    </div>
+
+                    <div className="col-6 center-div">
+                        <div className="payment-head">Shopping</div>
+                        <div className="payment-description white py-3">
+                            Connect to sellers on <br />
+                            Montra app for <span className="fw-700">exciting deals  </span>
+                        </div>
+
+                        <div className="white mb-4">
+                            Montra shoppers can find what they are looking for online and <br />
+                            in person. From delivering fresh produce to their doorstep to <br />
+                            creating and distributing movies, music, and more, we are  <br />
+                            always finding new ways to delight our customers.
+                        </div>
+                        <button className="download-btn blue w-40 ">Download
+                            <img src={montraFinal} className="px-1" alt="" />
+                            <img src={applelogo} alt="" />
+                            <img src={googleLogo} className="pl-1" alt="" />
+                        </button>
+                    </div>
+                </div>
+                <div className="arrow1">
+                    <img src={arrow} alt="" />
                 </div>
             </section>
             <PageFooter />
