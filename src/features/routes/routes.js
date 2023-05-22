@@ -6,13 +6,11 @@ import LandingPage from "../public-console/landing-page/landing-page";
 function Router() {
     return (
         <div className="Layout">
-            
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<LandingPage />} />
                 </Routes>
             </BrowserRouter>
-           
         </div>
     );
 }

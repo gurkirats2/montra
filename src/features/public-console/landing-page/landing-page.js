@@ -8,7 +8,6 @@ import paymentqr from '../../../assets/images/paymentqr.png';
 import mainimg from '../../../assets/images/main-img.png'
 import banking from '../../../assets/images/banking.png'
 import lending from '../../../assets/images/lending.png'
-import m from '../../../assets/images/m.png'
 import arrow from '../../../assets/images/arrow.png'
 import wallet from '../../../assets/images/wallet.png'
 import bank from '../../../assets/images/bank.png'
@@ -23,14 +22,11 @@ import chatnotification from '../../../assets/images/chatnotification.png'
 import store from '../../../assets/images/store.png'
 import book from '../../../assets/images/book.png'
 
-
 function LandingPage() {
     return (
-
-        <div >
+        <div>
             <PageHeader />
             {/* section 1 */}
-
             <section className="bg-section-first p-relative">
                 {/* page-header-2 */}
                 <div className="justify-between pad-section align-center">
@@ -99,7 +95,7 @@ function LandingPage() {
                     </div>
                     <div className="col-7 mt-5  text-right ">
                         <div class="">
-                            <img src={mainimg} alt="" />
+                            <img src={mainimg} width={'100%'} alt="" />
                             {/* <img src={m} alt="" /> */}
                         </div>
                     </div>
@@ -498,6 +494,7 @@ function LandingPage() {
                     <img src={arrow} alt="" />
                 </div>
             </section>
+
             <PageFooter />
         </div>
     );
