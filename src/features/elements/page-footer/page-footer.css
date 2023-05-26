@@ -38,6 +38,7 @@ i.fa.fa-map-marker {
 .sub_heading {
     color: #50ccfe;
     font-size: 16px;
+    font-weight: 600;
     line-height: 135%;
     margin-bottom: 10px;
     margin-top: -5px !important;
@@ -68,9 +69,6 @@ ul {
     padding: 40px -15px;
 }
 
-hr {
-    margin-left: 100px;
-}
 
 #lab_social_icon_footer a {
     color: #333;
@@ -126,4 +124,12 @@ hr {
 
 .black {
     color: #000 !important;
+}
+
+.text-reset {
+    color: #000
+}
+
+.text-left {
+    text-align: left
 }

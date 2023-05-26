@@ -56,7 +56,7 @@ function PageFooter() {
 
                         </div>
                         {/* 2nd column */}
-                        <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <div className="col-md-2 col-lg-2 col-xl-2 text-left mb-4">
                             <h6 className="text-uppercase fw-bold mb-4">
                                 Mantra App
                             </h6>
@@ -124,7 +124,7 @@ function PageFooter() {
                             </p>
                         </div>
                         {/* 3nd column  */}
-                        <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <div className="col-md-3 col-lg-2 col-xl-2 text-left mb-4">
                             <h6 className="text-uppercase fw-bold mb-4">
                                 Platforms
                             </h6>
@@ -181,7 +181,7 @@ function PageFooter() {
                             </p>
                             {/* 4th column */}
                         </div>
-                        <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <div className="col-md-4 col-lg-3 col-xl-3 text-left mb-md-0 mb-4">
                             <h6 className="text-uppercase fw-bold mb-4">Company</h6>
                             <p className="sub_text">
                                 <a href="#!" className="text-reset">About Montra</a>
@@ -222,10 +222,10 @@ function PageFooter() {
                 </div>
             </section>
             <hr size="2" width="82%" color="black"></hr>
-            <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <section className="center p-4 border-bottom">
                 <div className="out_footer black">
                     <ul>
-                        <li> <img style={{ "width": "20px", "marginLeft": '5px' }} src={flag} alt="flag" srcset="" />  {country || "Nigeria"}</li>
+                        <li> <img style={{ "width": "20px", "marginLeft": '5px' }} className="mr-2" src={flag} alt="flag" srcset="" />  {country || "Nigeria"}</li>
                         <li className='black'>Privacy policy</li>
                         <li className='black'>Terms of use</li>
                         <li className='black'>Cookie policy</li>

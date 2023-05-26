@@ -1,6 +1,7 @@
 import logo from '../../../assets/images/logo.png'
 import './page-header.css';
 import triangle from '../../../assets/images/triangle.svg'
+import { NavLink } from 'react-router-dom';
 function PageHeader() {
     return (
         <div className="justify-between font-14 pad-section1">
@@ -24,13 +25,17 @@ function PageHeader() {
                     <option>Nigeria</option>
                 </select>
                 <div className="pl-3">
-                    Company
+                    <NavLink to="/company">
+                        Company
+                    </NavLink>
                 </div>
                 <div className="px-3">
                     Resources
                 </div>
                 <div>
-                    Help
+                    <NavLink to="/help">
+                        Help
+                    </NavLink>
                 </div>
             </section>
         </div>

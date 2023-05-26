@@ -171,6 +171,23 @@ li {
 
 .arrow1 {
     position: absolute;
-    bottom: -84px;
+    bottom: -68px;
     left: 0px;
+}
+
+.centerdiv {
+    display: flex;
+    justify-content: center;
+}
+
+.arrowBottom {
+    position: absolute;
+    right: 0;
+    top: -50px;
+}
+
+.arrowBottomDown {
+    position: absolute;
+    right: 0px;
+    bottom:117px
 }

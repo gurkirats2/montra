@@ -1,5 +1,4 @@
-import PageFooter from "../../elements/page-footer/page-footer";
-import PageHeader from "../../elements/page-header/page-header";
+
 import './landing-page.css';
 import montraFinal from '../../../assets/images/montraFinal.png';
 import applelogo from '../../../assets/images/applelogo.png';
@@ -21,11 +20,26 @@ import chatting from '../../../assets/images/chatting.png'
 import chatnotification from '../../../assets/images/chatnotification.png'
 import store from '../../../assets/images/store.png'
 import book from '../../../assets/images/book.png'
+import AccountOpening from '../../../assets/images/icons/AccountOpening.svg';
+import kyc from '../../../assets/images/icons/KYC.svg';
+import agencyBanking from '../../../assets/images/icons/AgencyBanking.svg';
+import agencyBankingStatement from '../../../assets/images/icons/Agency  Banking Statement.svg'
+import arrowBottom from '../../../assets/images/arrowbottom.png'
+import compareLoanOffer from '../../../assets/images/icons/Compare Loan Offers.svg'
+import instantLoan from '../../../assets/images/icons/Instant Loan Disbursements.svg';
+import trackLoan from '../../../assets/images/icons/Track Loan Applications.svg';
+import loanRepayment from '../../../assets/images/icons/Make Loan Repayments.svg';
+import viewLoan from '../../../assets/images/icons/View Loan Statements.svg';
+import getPaymentRemainder from '../../../assets/images/icons/Get Payment Reminders.svg';
+import compareInsaurancePlan from '../../../assets/images/icons/Compare Insurance Plans.svg';
+import viewPolicyDetail from '../../../assets/images/icons/View Policy Details.svg';
+import renewInsaurance from '../../../assets/images/icons/Renew Insurance Policies.svg';
+import compareFixedDepoistRates from '../../../assets/images/icons/Compare Fixed Deposit rates.svg';
+import investInMutualFunds from '../../../assets/images/icons/Compare and Invest in Mutual Funds.svg';
 
 function LandingPage() {
     return (
         <div>
-            <PageHeader />
             {/* section 1 */}
             <section className="bg-section-first p-relative">
                 {/* page-header-2 */}
@@ -122,7 +136,7 @@ function LandingPage() {
                     <div className="col-7">
                         <div className="row">
                             <div className="col-6">
-                                <img src={paymentqr} alt="" width={'100%'} />
+                                <img src={paymentqr} className="ml-2" alt="" width={'100%'} />
                             </div>
                             <div className="col-6 font-12">
                                 <div class="bg-gray mt-5">
@@ -220,7 +234,8 @@ function LandingPage() {
 
             <section className="row bg-skyblue pl8 mt-5 py-5 ht-540">
                 <div className="col-5 center-div">
-                    <div className="payment-head">Banking</div>
+                    <div className="payment-head">                                <img src={bank} alt="" className="mr-2" />
+                        Banking</div>
                     <div className="payment-description py-3">
                         <span className="fw-700"> Open a bank account <br /> instantly </span> with our partner <br />  banks and operate through <br />  our Agent Network
                     </div>
@@ -238,7 +253,7 @@ function LandingPage() {
 
             {/* section 4 */}
             <section className="row bg-skyblue pb-5">
-                <div className="col-6">
+                <div className="col-5">
                     <div className="row">
                         <div className="col-8">
                             <div class="bg-white center-div">
@@ -272,32 +287,39 @@ function LandingPage() {
                         </div>
                     </div>
                 </div>
-                <div className="col-6 center-div pl-4">
-                    <div className="row">
-                        <div className="col-6">
+                <div className="col-7 center-div pl-4">
+                    <div className="row centerdiv">
+                        <div className="col-5">
+                            <img src={AccountOpening} alt="" className="mb-3" />
                             <div className="text-left-border">Account Opening</div>
                             <div className="mt-3 col-8">
                                 Customers can open a bank account instantly with any of our parner banks
                             </div>
                         </div>
 
-                        <div className="col-6">
+                        <div className="col-5">
+                            <img src={kyc} alt="" className="mb-3" />
+
                             <div className="text-left-border">KYC</div>
                             <div className="mt-3 col-8">
                                 Customers can submit documents and complete kyc through Montra personal app for the newly opened account
                             </div>
                         </div>
                     </div>
-                    <div className="row mt-5">
+                    <div className="row mt-5 centerdiv">
 
-                        <div className="col-6">
+                        <div className="col-5">
+
+                            <img src={agencyBanking} alt="" className="mb-3" />
                             <div className="text-left-border">Agency Banking</div>
                             <div className="mt-3 col-8">
                                 Scan QR code of any Montra Merchant using Personal App and simply make payment directly from any of your bank Accounts
                             </div>
                         </div>
 
-                        <div className="col-6">
+                        <div className="col-5">
+                            <img src={agencyBankingStatement} alt="" className="mb-3" />
+
                             <div className="text-left-border">Agency  Banking Statement</div>
                             <div className="mt-3 col-8">
                                 Scan QR code of any Montra Merchant using Personal App  and simply make payment directly from any of your bank accounts
@@ -312,9 +334,13 @@ function LandingPage() {
 
             {/* section 5 */}
             <section className="bg-img pl8 pt22 p-relative">
+                <section className="arrowBottom">
+                    <img src={arrowBottom} alt="" />
+                </section>
                 <div className="row">
                     <div className="col-6 center-div">
-                        <div className="payment-head">Lending</div>
+
+                        <div className="payment-head"><img src={donate} alt="" className="mr-2" />Lending</div>
                         <div className="payment-description white py-3">
                             <span className="fw-700">  Compare the loan offers from  <br />our Lending Partners and </span>  get  <br /> them disbursed instantly in  <br /> your bank accounts
                         </div>
@@ -335,18 +361,24 @@ function LandingPage() {
                 <div className="col-8 mt-5">
                     <div className="row white">
                         <div className="col-4">
+                            <img src={compareLoanOffer} alt="" className="mb-3" />
+
                             <div className="text-left-border-white">Compare Loan Offers</div>
                             <div className="mt-3 col-8">
                                 Customers can apply for variety of Instant  and Other loan products offered by our Lending partners on Montra Personal app                            </div>
                         </div>
 
                         <div className="col-4">
+                            <img src={instantLoan} alt="" className="mb-3" />
+
                             <div className="text-left-border-white">Instant Loan Disbursements</div>
                             <div className="mt-3 col-8">
                                 Upon successfully submitting loan applications for Instant Loan products, Montra get the amount disbursed into customers’ bank accounts instantly                            </div>
                         </div>
 
                         <div className="col-4">
+                            <img src={trackLoan} alt="" className="mb-3" />
+
                             <div className="text-left-border-white">Track Loan Applications</div>
                             <div className="mt-3 col-8">
                                 Customers can track the status of the loans applied on Montra Personal app to see their status                            </div>
@@ -354,18 +386,24 @@ function LandingPage() {
 
                         <section className="row mt-5">
                             <div className="col-4">
+                                <img src={loanRepayment} alt="" className="mb-3" />
+
                                 <div className="text-left-border-white ">Make Loan Repayments</div>
                                 <div className="mt-3 col-8">
                                     Customers can initiate payment of Due monthly installments on Montra Personal app                                </div>
                             </div>
 
                             <div className="col-4">
+                                <img src={viewLoan} alt="" className="mb-3" />
+
                                 <div className="text-left-border-white ">View Loan Statements</div>
                                 <div className="mt-3 col-8">
                                     Customers can view Loan Statements for all the loans they have availed on Montra Personal app                                </div>
                             </div>
 
                             <div className="col-4">
+                                <img src={getPaymentRemainder} alt="" className="mb-3" />
+
                                 <div className="text-left-border-white">Get Payment Reminders</div>
                                 <div className="mt-3 col-8">
                                     Montra sends alerts reminding Customers to pay against the due & delinquent amounts for them to avoid paying penal charges                                </div>
@@ -387,7 +425,9 @@ function LandingPage() {
                     <img src={banking} alt="" />
                 </div>
                 <div className="col-5 center-div">
-                    <div className="payment-head">Insurance</div>
+
+                    <div className="payment-head"> <img src={shield} alt="" className="mr-2" />
+                        Insurance</div>
                     <div className="payment-description py-3">
                         <span className="fw-700">Compare Insurance Policy <br />
                             Premiums</span> and Features to buy <br /> the <span className="fw-700"> most suitable plan from <br />
@@ -404,6 +444,7 @@ function LandingPage() {
             <div className="col-9 mt-5 pl8">
                 <div className="row">
                     <div className="col-4">
+                        <img src={compareInsaurancePlan} alt="" className="mb-3" />
                         <div className="text-left-border">Compare Insurance Plans</div>
                         <div className="mt-3 col-8">
                             Customers can apply for variety of Insurance Products and compare the plans for the premium amounts and features towards making a more informed decision
@@ -411,6 +452,7 @@ function LandingPage() {
                     </div>
 
                     <div className="col-4">
+                        <img src={viewPolicyDetail} alt="" className="mb-3" />
                         <div className="text-left-border">View Policy Details</div>
                         <div className="mt-3 col-8">
                             Now customers can find details of all the polices purchased on Montra Personal app in their pocket
@@ -418,6 +460,7 @@ function LandingPage() {
                     </div>
 
                     <div className="col-4">
+                        <img src={renewInsaurance} alt="" className="mb-3" />
                         <div className="text-left-border">Renew Insurance Policies</div>
                         <div className="mt-3 col-8">
                             Customers can easily renew the existing policies on Montra Personal app
@@ -428,7 +471,9 @@ function LandingPage() {
             {/* section 7 */}
             <section className="row pl8 mt-5 py-5 ht-540 bg-skyblue">
                 <div className="col-6 center-div">
-                    <div className="payment-head">Investment</div>
+
+                    <div className="payment-head"><img src={gold} alt="" className="mr-2" />
+                        Investment</div>
                     <div className="payment-description py-3">
                         <span className="fw-700">Compare  best investment <br /> plans </span> available towards <br /> maximizing your returns
                     </div>
@@ -439,17 +484,20 @@ function LandingPage() {
                     </button>
                     <div className="row  mt-5">
                         <div className="col-6">
+                            <img src={compareFixedDepoistRates} alt="" className="mb-3" />
+
                             <div className="blue font-20 fw-700">Compare Fixed Deposit rates</div>
                             <div className="mt-3 col-8">
                                 Customers can compare Fixed Deposit rates available from our Banking Partners and park deposits where the returns are most attractive                            </div>
                         </div>
 
                         <div className="col-6">
+                            <img src={investInMutualFunds} alt="" className="mb-3" />
+
                             <div className="blue font-20 fw-700">Compare and Invest in Mutual Funds</div>
                             <div className="mt-3 col-8">
                                 Customers can Compare best Investment plans available towards maximizing your returns                            </div>
                         </div>
-
 
                     </div>
                 </div>
@@ -462,6 +510,9 @@ function LandingPage() {
             {/* section-8 */}
 
             <section className="bg-img  pl8 pt22 p-relative">
+                <section className="arrowBottom">
+                    <img src={arrowBottom} alt="" />
+                </section>
                 <div className="row">
 
                     <div className="col-6 m-auto">
@@ -471,7 +522,8 @@ function LandingPage() {
                     </div>
 
                     <div className="col-6 center-div">
-                        <div className="payment-head">Shopping</div>
+                        <div className="payment-head">   <img src={cart} alt="" className="mr-2" />
+                            Shopping</div>
                         <div className="payment-description white py-3">
                             Connect to sellers on <br />
                             Montra app for <span className="fw-700">exciting deals  </span>
@@ -493,9 +545,11 @@ function LandingPage() {
                 <div className="arrow1">
                     <img src={arrow} alt="" />
                 </div>
+                <div className="arrowBottomDown">
+                    <img src={arrowBottom} alt="" />
+                </div>
             </section>
 
-            <PageFooter />
         </div>
     );
 }
