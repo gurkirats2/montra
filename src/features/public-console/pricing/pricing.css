@@ -1,0 +1,75 @@
+.slant {
+    width: 100%;
+    height: 700px;
+    background-color: #1E336B;
+    position: relative;
+    color: #fff
+}
+
+.slantdiv {
+    width: 100%;
+    height: 700px;
+    background-color: #1E336B;
+    position: absolute;
+    top: 0px;
+    transform: skewY(-7deg);
+    left: 0px;
+    transform-origin: top right;
+}
+
+h1 {
+    color: yellow;
+}
+
+.number-circle {
+    background: #4EC3F5;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.z-index {
+    z-index: 9;
+    position: relative;
+}
+
+.border-dashed {
+    border-left: 1px dashed #fff;
+    margin-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.pl8 {
+    padding-left: 8rem;
+}
+
+.font-50 {
+    font-size: 50px;
+}
+
+.flex-col1 {
+    flex-direction: column;
+}
+
+.arrow1 {
+    position: absolute;
+    bottom: -220px;
+}
+
+.mt20 {
+    margin-top: 15rem;
+}
+
+.blue-head {
+    color: #1E336B;
+    font-size: 31px;
+    font-weight: 700;
+}

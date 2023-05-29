@@ -21,7 +21,15 @@ function PageHeader() {
                 </div>
             </section>
             <section className="d-flex">
-                <select value={'Nigeria'}>
+                <div className="pl-3">
+                    Payment Gateway
+                </div>
+                <div className="pl-3">
+                    <NavLink to="/pricing">
+                        Pricing
+                    </NavLink>
+                </div>
+                <select value={'Nigeria'} className='pl-3'>
                     <option>Nigeria</option>
                 </select>
                 <div className="pl-3">

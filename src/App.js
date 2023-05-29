@@ -5,6 +5,8 @@ import PageHeader from '../src/features/elements/page-header/page-header'
 import PageFooter from '../src/features/elements/page-footer/page-footer'
 import Help from './features/public-console/help/help';
 import Company from './features/public-console/company/company';
+import Pricing from './features/public-console/pricing/pricing';
+import Business from './features/public-console/business/business';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Route path="/" Component={LandingPage} />
         <Route path="/help" Component={Help} />
         <Route path="/company" Component={Company} />
+        <Route path="/pricing" Component={Pricing} />
+        <Route path="/business" Component={Business} />
 
       </Routes>
       <PageFooter />

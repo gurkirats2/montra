@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import logo from '../../../assets/images/montra_logo.png'
 import './page-footer.css';
+import arrow from '../../../assets/images/arrow.png'
 
 function PageFooter() {
     const [country, setCountry] = useState("India");
@@ -21,9 +22,11 @@ function PageFooter() {
         fetchData();
     }, []);
     return (
-        <footer className="text-center text-lg-start bg-light text-muted bg-skyblue">
-
-            <section className="">
+        <footer className="text-center text-lg-start bg-light text-muted bg-skyblue p-relative">
+            <div className='p-relative' >
+                <img className="arrow-footer" src={arrow} alt="" />
+            </div>
+            <section className="z-index">
                 <div className="container text-center text-md-start pt-5">
                     <div className="row pt-5">
                         {/* 1st column */}
@@ -221,8 +224,8 @@ function PageFooter() {
                     </div>
                 </div>
             </section>
-            <hr size="2" width="82%" color="black"></hr>
-            <section className="center p-4 border-bottom">
+            <hr size="2" width="82%" color="black" className='z-index'></hr>
+            <section className="center p-4 border-bottom z-index">
                 <div className="out_footer black">
                     <ul>
                         <li> <img style={{ "width": "20px", "marginLeft": '5px' }} className="mr-2" src={flag} alt="flag" srcset="" />  {country || "Nigeria"}</li>
@@ -234,7 +237,9 @@ function PageFooter() {
                     </ul>
                 </div>
             </section>
+            <div className='slant-footer'>
 
+            </div>
         </footer>
 
     )

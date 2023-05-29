@@ -23,7 +23,10 @@ function Help() {
                                 </NavLink>
                             </span>
                             <span className="pl-2">
-                                Business
+                                <NavLink to="/business ">
+
+                                    Business
+                                </NavLink>
                             </span>
                         </div>
                     </section>
@@ -141,13 +144,12 @@ function Help() {
                     <div className='col-8 mt-3'>
                         <div className='white-card text-left'>
                             <div className='fw-700'>Do you offer discounts for non-profit organizations or educational institutions??</div>
-
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section className='mb-5'>
+            <section className='mb15'>
                 <div className='blue font-34 fw-700 text-center mt-5'>Still have a questions?</div>
                 <div className='text-center blue mt-2 mb-5'>If you cannot find answer to your question in our FAQ, you can always contact us. We wil answer to you shortly!</div>
 
@@ -166,7 +168,6 @@ function Help() {
                             <div className='mt-2'>Alternative way to get anwser faster.</div>
                         </div>
                     </div>
-
                 </div>
             </section>
         </div>

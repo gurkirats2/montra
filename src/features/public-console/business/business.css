@@ -1,0 +1,69 @@
+.slantdivBusiness {
+    width: 100%;
+    height: 800px;
+    background-color: #1E336B;
+    position: absolute;
+    top: 0px;
+    transform: skewY(-7deg);
+    left: 0px;
+    transform-origin: top right;
+}
+
+.slant-business {
+    width: 100%;
+    height: 800px;
+    background-color: #1E336B;
+    position: relative;
+    color: #fff
+}
+
+.slantdivBusiness-1 {
+    width: 100%;
+    height: 1100px;
+    background-color: #1E336B;
+    position: absolute;
+    top: 0px;
+    transform: skewY(-7deg);
+    left: 0px;
+    transform-origin: top right;
+}
+
+.slant-business-1 {
+    width: 100%;
+    height: 1100px;
+    background-color: #EBF2F9;
+    position: relative;
+    color: #fff
+}
+
+.my-15 {
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+}
+
+.py-6 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.pt-15 {
+    padding-top: 15rem;
+}
+
+.bg-lightblue {
+    background-color: #EBF2F9;
+}
+
+.arrowBottom-1 {
+    position: absolute;
+    right: 0;
+    top: -67px;
+}
+
+.white {
+    color: #fff
+}
+
+.mt-minus-7 {
+    margin-top: -7rem;
+}

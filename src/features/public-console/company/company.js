@@ -31,7 +31,10 @@ function Company() {
                                 </NavLink>
                             </span>
                             <span className="pl-2">
-                                Business
+                                <NavLink to="/business ">
+
+                                    Business
+                                </NavLink>
                             </span>
                         </div>
                     </section>

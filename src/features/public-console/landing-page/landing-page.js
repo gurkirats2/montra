@@ -36,6 +36,7 @@ import viewPolicyDetail from '../../../assets/images/icons/View Policy Details.s
 import renewInsaurance from '../../../assets/images/icons/Renew Insurance Policies.svg';
 import compareFixedDepoistRates from '../../../assets/images/icons/Compare Fixed Deposit rates.svg';
 import investInMutualFunds from '../../../assets/images/icons/Compare and Invest in Mutual Funds.svg';
+import { NavLink } from 'react-router-dom';
 
 function LandingPage() {
     return (
@@ -47,10 +48,14 @@ function LandingPage() {
                     <section>
                         <div className="tabs">
                             <span className="active">
-                                Personal
+                                <NavLink to="/">
+                                    Personal
+                                </NavLink>
                             </span>
                             <span className="pl-2">
-                                Business
+                                <NavLink to="business">
+                                    Business
+                                </NavLink>
                             </span>
                         </div>
                     </section>

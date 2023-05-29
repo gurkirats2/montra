@@ -67,3 +67,7 @@ input::placeholder {
 .text-left {
     text-align: left;
 }
+
+.mb15{
+    margin-bottom:15rem;
+}
