@@ -22,7 +22,7 @@ function PageFooter() {
         fetchData();
     }, []);
     return (
-        <footer className="text-center text-lg-start bg-light text-muted bg-skyblue p-relative">
+        <footer className="text-center text-lg-start bg-light text-muted bg-skyblue ht-1000 p-relative">
             <div className='p-relative' >
                 <img className="arrow-footer" src={arrow} alt="" />
             </div>
