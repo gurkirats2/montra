@@ -11,7 +11,7 @@ function PageHeader() {
             <section className="d-flex">
                 <div className="p-relative fw-600">
                     Montra App
-                    <img src={triangle} className="triangle" alt="" />
+                    <img src={triangle} className="triangle" />
                 </div>
                 <div className="px-3">
                     Platforms
@@ -21,8 +21,21 @@ function PageHeader() {
                 </div>
             </section>
             <section className="d-flex">
+            <div className='pl-3'>
+                    <NavLink to="/verified">
+                        Verified
+                    </NavLink>
+                </div>
+                <div className='pl-3'>
+                    <NavLink to="/duo">
+                        Duo
+                    </NavLink>
+                </div>
                 <div className="pl-3">
-                    Payment Gateway
+
+                    <NavLink to="/paymentGateway">
+                        Payment Gateway
+                    </NavLink>
                 </div>
                 <div className="pl-3">
                     <NavLink to="/pricing">

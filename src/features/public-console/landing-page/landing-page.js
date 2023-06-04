@@ -42,9 +42,9 @@ function LandingPage() {
     return (
         <div>
             {/* section 1 */}
-            <section className="bg-section-first p-relative">
+            <section className="slant-business">
                 {/* page-header-2 */}
-                <div className="justify-between pad-section align-center">
+                <div className="justify-between pad-section align-center z-index">
                     <section>
                         <div className="tabs">
                             <span className="active">
@@ -62,27 +62,27 @@ function LandingPage() {
                     <section>
                         <ul>
                             <li>
-                                <img src={wallet} alt="" className="mr-2" />
+                                <img src={wallet} className="mr-2" />
                                 Payment
                             </li>
                             <li>
-                                <img src={bank} alt="" className="mr-2" />
+                                <img src={bank} className="mr-2" />
                                 Banking
                             </li>
                             <li>
-                                <img src={donate} alt="" className="mr-2" />
+                                <img src={donate} className="mr-2" />
                                 Lending
                             </li>
                             <li>
-                                <img src={shield} alt="" className="mr-2" />
+                                <img src={shield} className="mr-2" />
                                 Insurance
                             </li>
                             <li>
-                                <img src={gold} alt="" className="mr-2" />
+                                <img src={gold} className="mr-2" />
                                 Investment
                             </li>
                             <li>
-                                <img src={cart} alt="" className="mr-2" />
+                                <img src={cart} className="mr-2" />
                                 Shopping
                             </li>
                         </ul>
@@ -95,8 +95,8 @@ function LandingPage() {
                     </section>
                 </div>
 
-                <div className="row ">
-                    <div className="col-5 center-div pl8">
+                <div className="row z-index ">
+                    <div className="col-5 mt-5 pt-5 pl8">
                         <div className="text-head">
                             Powering Digital <br />
                             Payments Lending <br />
@@ -107,41 +107,44 @@ function LandingPage() {
                             Insurance Investment Products
                         </div>
                         <button className="download-btn white w-40">Download
-                            <img src={montraFinal} className="px-1" alt="" />
-                            <img src={applelogo} alt="" />
-                            <img src={googleLogo} className="pl-1" alt="" />
+                            <img src={montraFinal} className="px-1" />
+                            <img src={applelogo} />
+                            <img src={googleLogo} className="pl-1" />
                         </button>
                     </div>
                     <div className="col-7 mt-5  text-right ">
                         <div class="">
-                            <img src={mainimg} width={'100%'} alt="" />
-                            {/* <img src={m} alt="" /> */}
+                            <img src={mainimg} width={'100%'} />
+                            {/* <img src={m}  /> */}
                         </div>
                     </div>
                 </div>
-                <div className="arrow">
-                    <img src={arrow} alt="" />
+                <div className='slantdivBusiness'>
+
+                </div>
+                <div className='p-relative'>
+                    <img className="arrow" src={arrow} />
                 </div>
             </section>
 
             {/* section 2 */}
-            <section class="pl8 my-5">
+            <section class="pl8 my-15">
                 <div className="row pt-5">
                     <div className="col-5">
-                        <div className="payment-head align-center"><img src={wallet} alt="" className="mr-2" />Payments</div>
+                        <div className="payment-head align-center"><img src={wallet} className="mr-2" />Payments</div>
                         <div className="payment-description py-3">Pay anyone directly from your <br />
                             <span className="fw-700">bank accounts</span> or linked <span className="fw-700">cards</span></div>
                         <button className="download-btn blue">Download
 
-                            <img src={montraFinal} className="px-1" alt="" />
-                            <img src={applelogo} alt="" />
-                            <img src={googleLogo} className="pl-1" alt="" />
+                            <img src={montraFinal} className="px-1" />
+                            <img src={applelogo} />
+                            <img src={googleLogo} className="pl-1" />
                         </button>
                     </div>
                     <div className="col-7">
                         <div className="row">
                             <div className="col-6">
-                                <img src={paymentqr} className="ml-2" alt="" width={'100%'} />
+                                <img src={paymentqr} className="ml-2" width={'100%'} />
                             </div>
                             <div className="col-6 font-12">
                                 <div class="bg-gray mt-5">
@@ -176,7 +179,7 @@ function LandingPage() {
                 <div className="col-8 mt-3">
                     <div className="row">
                         <div className="col-4">
-                            <img src={mobilepayment} alt="" className="mb-3" />
+                            <img src={mobilepayment} className="mb-3" />
                             <div className="text-left-border">Scan Pay</div>
                             <div className="mt-3 col-8">
                                 Scan QR code of any Montra Merchant using Personal App & simply make payment directly f
@@ -184,7 +187,7 @@ function LandingPage() {
                         </div>
 
                         <div className="col-4">
-                            <img src={profit} alt="" className="mb-3" />
+                            <img src={profit} className="mb-3" />
 
                             <div className="text-left-border">Fund Transfer</div>
                             <div className="mt-3 col-8">
@@ -193,7 +196,7 @@ function LandingPage() {
                         </div>
 
                         <div className="col-4">
-                            <img src={chatting} alt="" className="mb-3" />
+                            <img src={chatting} className="mb-3" />
 
                             <div className="text-left-border">Chat Pay</div>
                             <div className="mt-3 col-8">
@@ -203,7 +206,7 @@ function LandingPage() {
 
                         <section className="row mt-5">
                             <div className="col-4">
-                                <img src={store} alt="" className="mb-3" />
+                                <img src={store} className="mb-3" />
 
                                 <div className="text-left-border">Payment Marketplace</div>
                                 <div className="mt-3 col-8">
@@ -212,7 +215,7 @@ function LandingPage() {
                             </div>
 
                             <div className="col-4">
-                                <img src={book} alt="" className="mb-3" />
+                                <img src={book} className="mb-3" />
 
                                 <div className="text-left-border">Transaction History</div>
                                 <div className="mt-3 col-8">
@@ -221,7 +224,7 @@ function LandingPage() {
                             </div>
 
                             <div className="col-4">
-                                <img src={chatnotification} alt="" className="mb-3" />
+                                <img src={chatnotification} className="mb-3" />
 
                                 <div className="text-left-border">Payment Reminders</div>
                                 <div className="mt-3 col-8">
@@ -239,19 +242,19 @@ function LandingPage() {
 
             <section className="row bg-skyblue pl8 mt-5 py-5 ht-540">
                 <div className="col-5 center-div">
-                    <div className="payment-head">                                <img src={bank} alt="" className="mr-2" />
+                    <div className="payment-head">                                <img src={bank} className="mr-2" />
                         Banking</div>
                     <div className="payment-description py-3">
                         <span className="fw-700"> Open a bank account <br /> instantly </span> with our partner <br />  banks and operate through <br />  our Agent Network
                     </div>
                     <button className="download-btn blue w-40">Download
-                        <img src={montraFinal} className="px-1" alt="" />
-                        <img src={applelogo} alt="" />
-                        <img src={googleLogo} className="pl-1" alt="" />
+                        <img src={montraFinal} className="px-1" />
+                        <img src={applelogo} />
+                        <img src={googleLogo} className="pl-1" />
                     </button>
                 </div>
                 <div className="col-7 m-auto">
-                    <img src={banking} alt="" />
+                    <img src={banking} />
                 </div>
             </section>
 
@@ -295,7 +298,7 @@ function LandingPage() {
                 <div className="col-7 center-div pl-4">
                     <div className="row centerdiv">
                         <div className="col-5">
-                            <img src={AccountOpening} alt="" className="mb-3" />
+                            <img src={AccountOpening} className="mb-3" />
                             <div className="text-left-border">Account Opening</div>
                             <div className="mt-3 col-8">
                                 Customers can open a bank account instantly with any of our parner banks
@@ -303,7 +306,7 @@ function LandingPage() {
                         </div>
 
                         <div className="col-5">
-                            <img src={kyc} alt="" className="mb-3" />
+                            <img src={kyc} className="mb-3" />
 
                             <div className="text-left-border">KYC</div>
                             <div className="mt-3 col-8">
@@ -315,7 +318,7 @@ function LandingPage() {
 
                         <div className="col-5">
 
-                            <img src={agencyBanking} alt="" className="mb-3" />
+                            <img src={agencyBanking} className="mb-3" />
                             <div className="text-left-border">Agency Banking</div>
                             <div className="mt-3 col-8">
                                 Scan QR code of any Montra Merchant using Personal App and simply make payment directly from any of your bank Accounts
@@ -323,7 +326,7 @@ function LandingPage() {
                         </div>
 
                         <div className="col-5">
-                            <img src={agencyBankingStatement} alt="" className="mb-3" />
+                            <img src={agencyBankingStatement} className="mb-3" />
 
                             <div className="text-left-border">Agency  Banking Statement</div>
                             <div className="mt-3 col-8">
@@ -333,31 +336,31 @@ function LandingPage() {
                     </div>
                 </div>
                 {/* <div>
-                    <img src={cuttingedge} alt=""/>
+                    <img src={cuttingedge} />
                 </div> */}
             </section>
 
             {/* section 5 */}
             <section className="bg-img pl8 pt22 p-relative">
                 <section className="arrowBottom">
-                    <img src={arrowBottom} alt="" />
+                    <img src={arrowBottom} />
                 </section>
                 <div className="row">
                     <div className="col-6 center-div">
 
-                        <div className="payment-head"><img src={donate} alt="" className="mr-2" />Lending</div>
+                        <div className="payment-head"><img src={donate} className="mr-2" />Lending</div>
                         <div className="payment-description white py-3">
                             <span className="fw-700">  Compare the loan offers from  <br />our Lending Partners and </span>  get  <br /> them disbursed instantly in  <br /> your bank accounts
                         </div>
                         <button className="download-btn blue w-40">Download
-                            <img src={montraFinal} className="px-1" alt="" />
-                            <img src={applelogo} alt="" />
-                            <img src={googleLogo} className="pl-1" alt="" />
+                            <img src={montraFinal} className="px-1" />
+                            <img src={applelogo} />
+                            <img src={googleLogo} className="pl-1" />
                         </button>
                     </div>
                     <div className="col-6 m-auto">
                         <div className="p-relative">
-                            <img src={lending} alt="" />
+                            <img src={lending} />
                         </div>
                     </div>
                 </div>
@@ -366,7 +369,7 @@ function LandingPage() {
                 <div className="col-8 mt-5">
                     <div className="row white">
                         <div className="col-4">
-                            <img src={compareLoanOffer} alt="" className="mb-3" />
+                            <img src={compareLoanOffer} className="mb-3" />
 
                             <div className="text-left-border-white">Compare Loan Offers</div>
                             <div className="mt-3 col-8">
@@ -374,7 +377,7 @@ function LandingPage() {
                         </div>
 
                         <div className="col-4">
-                            <img src={instantLoan} alt="" className="mb-3" />
+                            <img src={instantLoan} className="mb-3" />
 
                             <div className="text-left-border-white">Instant Loan Disbursements</div>
                             <div className="mt-3 col-8">
@@ -382,7 +385,7 @@ function LandingPage() {
                         </div>
 
                         <div className="col-4">
-                            <img src={trackLoan} alt="" className="mb-3" />
+                            <img src={trackLoan} className="mb-3" />
 
                             <div className="text-left-border-white">Track Loan Applications</div>
                             <div className="mt-3 col-8">
@@ -391,7 +394,7 @@ function LandingPage() {
 
                         <section className="row mt-5">
                             <div className="col-4">
-                                <img src={loanRepayment} alt="" className="mb-3" />
+                                <img src={loanRepayment} className="mb-3" />
 
                                 <div className="text-left-border-white ">Make Loan Repayments</div>
                                 <div className="mt-3 col-8">
@@ -399,7 +402,7 @@ function LandingPage() {
                             </div>
 
                             <div className="col-4">
-                                <img src={viewLoan} alt="" className="mb-3" />
+                                <img src={viewLoan} className="mb-3" />
 
                                 <div className="text-left-border-white ">View Loan Statements</div>
                                 <div className="mt-3 col-8">
@@ -407,7 +410,7 @@ function LandingPage() {
                             </div>
 
                             <div className="col-4">
-                                <img src={getPaymentRemainder} alt="" className="mb-3" />
+                                <img src={getPaymentRemainder} className="mb-3" />
 
                                 <div className="text-left-border-white">Get Payment Reminders</div>
                                 <div className="mt-3 col-8">
@@ -418,8 +421,8 @@ function LandingPage() {
 
                 </div>
 
-                <div className="arrow1">
-                    <img src={arrow} alt="" />
+                <div className="arrow-b">
+                    <img src={arrow} />
                 </div>
             </section>
 
@@ -427,11 +430,11 @@ function LandingPage() {
 
             <section className="row pl8 mt-5 py-5 ht-540">
                 <div className="col-7 m-auto">
-                    <img src={banking} alt="" />
+                    <img src={banking} />
                 </div>
                 <div className="col-5 center-div">
 
-                    <div className="payment-head"> <img src={shield} alt="" className="mr-2" />
+                    <div className="payment-head"> <img src={shield} className="mr-2" />
                         Insurance</div>
                     <div className="payment-description py-3">
                         <span className="fw-700">Compare Insurance Policy <br />
@@ -439,9 +442,9 @@ function LandingPage() {
                             our Insurance Partners</span>
                     </div>
                     <button className="download-btn blue w-40">Download
-                        <img src={montraFinal} className="px-1" alt="" />
-                        <img src={applelogo} alt="" />
-                        <img src={googleLogo} className="pl-1" alt="" />
+                        <img src={montraFinal} className="px-1" />
+                        <img src={applelogo} />
+                        <img src={googleLogo} className="pl-1" />
                     </button>
                 </div>
             </section>
@@ -449,7 +452,7 @@ function LandingPage() {
             <div className="col-9 mt-5 pl8">
                 <div className="row">
                     <div className="col-4">
-                        <img src={compareInsaurancePlan} alt="" className="mb-3" />
+                        <img src={compareInsaurancePlan} className="mb-3" />
                         <div className="text-left-border">Compare Insurance Plans</div>
                         <div className="mt-3 col-8">
                             Customers can apply for variety of Insurance Products and compare the plans for the premium amounts and features towards making a more informed decision
@@ -457,7 +460,7 @@ function LandingPage() {
                     </div>
 
                     <div className="col-4">
-                        <img src={viewPolicyDetail} alt="" className="mb-3" />
+                        <img src={viewPolicyDetail} className="mb-3" />
                         <div className="text-left-border">View Policy Details</div>
                         <div className="mt-3 col-8">
                             Now customers can find details of all the polices purchased on Montra Personal app in their pocket
@@ -465,7 +468,7 @@ function LandingPage() {
                     </div>
 
                     <div className="col-4">
-                        <img src={renewInsaurance} alt="" className="mb-3" />
+                        <img src={renewInsaurance} className="mb-3" />
                         <div className="text-left-border">Renew Insurance Policies</div>
                         <div className="mt-3 col-8">
                             Customers can easily renew the existing policies on Montra Personal app
@@ -477,19 +480,19 @@ function LandingPage() {
             <section className="row pl8 mt-5 py-5 ht-540 bg-skyblue">
                 <div className="col-6 center-div">
 
-                    <div className="payment-head"><img src={gold} alt="" className="mr-2" />
+                    <div className="payment-head"><img src={gold} className="mr-2" />
                         Investment</div>
                     <div className="payment-description py-3">
                         <span className="fw-700">Compare  best investment <br /> plans </span> available towards <br /> maximizing your returns
                     </div>
                     <button className="download-btn blue w-40">Download
-                        <img src={montraFinal} className="px-1" alt="" />
-                        <img src={applelogo} alt="" />
-                        <img src={googleLogo} className="pl-1" alt="" />
+                        <img src={montraFinal} className="px-1" />
+                        <img src={applelogo} />
+                        <img src={googleLogo} className="pl-1" />
                     </button>
                     <div className="row  mt-5">
                         <div className="col-6">
-                            <img src={compareFixedDepoistRates} alt="" className="mb-3" />
+                            <img src={compareFixedDepoistRates} className="mb-3" />
 
                             <div className="blue font-20 fw-700">Compare Fixed Deposit rates</div>
                             <div className="mt-3 col-8">
@@ -497,7 +500,7 @@ function LandingPage() {
                         </div>
 
                         <div className="col-6">
-                            <img src={investInMutualFunds} alt="" className="mb-3" />
+                            <img src={investInMutualFunds} className="mb-3" />
 
                             <div className="blue font-20 fw-700">Compare and Invest in Mutual Funds</div>
                             <div className="mt-3 col-8">
@@ -507,7 +510,7 @@ function LandingPage() {
                     </div>
                 </div>
                 <div className="col-6 m-auto">
-                    <img src={banking} alt="" />
+                    <img src={banking} />
                 </div>
 
             </section>
@@ -516,18 +519,18 @@ function LandingPage() {
 
             <section className="bg-img  pl8 pt22 p-relative">
                 <section className="arrowBottom">
-                    <img src={arrowBottom} alt="" />
+                    <img src={arrowBottom} />
                 </section>
                 <div className="row">
 
                     <div className="col-6 m-auto">
                         <div className="p-relative">
-                            <img src={lending} alt="" />
+                            <img src={lending} />
                         </div>
                     </div>
 
                     <div className="col-6 center-div">
-                        <div className="payment-head">   <img src={cart} alt="" className="mr-2" />
+                        <div className="payment-head">   <img src={cart} className="mr-2" />
                             Shopping</div>
                         <div className="payment-description white py-3">
                             Connect to sellers on <br />
@@ -541,18 +544,18 @@ function LandingPage() {
                             always finding new ways to delight our customers.
                         </div>
                         <button className="download-btn blue w-40 ">Download
-                            <img src={montraFinal} className="px-1" alt="" />
-                            <img src={applelogo} alt="" />
-                            <img src={googleLogo} className="pl-1" alt="" />
+                            <img src={montraFinal} className="px-1" />
+                            <img src={applelogo} />
+                            <img src={googleLogo} className="pl-1" />
                         </button>
                     </div>
                 </div>
-                <div className="arrow1">
-                    <img src={arrow} alt="" />
+                {/* <div className="arrow1">
+                    <img src={arrow} />
                 </div>
                 <div className="arrowBottomDown">
-                    <img src={arrowBottom} alt="" />
-                </div>
+                    <img src={arrowBottom} />
+                </div> */}
             </section>
 
         </div>

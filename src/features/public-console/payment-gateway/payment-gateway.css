@@ -1,0 +1,49 @@
+.tick-outer {
+    background-color: rgba(30, 51, 107, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 23px;
+    height: 23px;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+}
+
+.theme-color {
+    color: #50CCFE
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-circle-blue {
+    background: rgba(255, 255, 255, 0.2)
+}
+
+.slantdiv-skyblue {
+    width: 100%;
+    height: 800px;
+    background-color: #fff;
+    position: relative;
+    color: #1E336B
+}
+
+.slant-skyblue {
+    width: 100%;
+    height: 800px;
+    background-color: #F4F8FB;
+    position: absolute;
+    top: 0px;
+    transform: skewY(-7deg);
+    left: 0px;
+    transform-origin: top right;
+}
+
+.box-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

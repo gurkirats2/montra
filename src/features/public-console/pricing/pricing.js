@@ -33,27 +33,27 @@ function Pricing() {
                     <section>
                         <ul>
                             <li>
-                                <img src={wallet} alt="" className="mr-2" />
+                                <img src={wallet}  className="mr-2" />
                                 Payment
                             </li>
                             <li>
-                                <img src={bank} alt="" className="mr-2" />
+                                <img src={bank}  className="mr-2" />
                                 Banking
                             </li>
                             <li>
-                                <img src={donate} alt="" className="mr-2" />
+                                <img src={donate}  className="mr-2" />
                                 Lending
                             </li>
                             <li>
-                                <img src={shield} alt="" className="mr-2" />
+                                <img src={shield}  className="mr-2" />
                                 Insurance
                             </li>
                             <li>
-                                <img src={gold} alt="" className="mr-2" />
+                                <img src={gold}  className="mr-2" />
                                 Investment
                             </li>
                             <li>
-                                <img src={cart} alt="" className="mr-2" />
+                                <img src={cart}  className="mr-2" />
                                 Shopping
                             </li>
                         </ul>
@@ -103,14 +103,14 @@ function Pricing() {
                         </section>
                     </div>
                     <div className='col-6 centerdiv align-center'>
-                        <img src={pricingMain} width={'88%'} alt="" />
+                        <img src={pricingMain} width={'88%'}  />
                     </div>
                 </div>
                 <div className='slantdiv'>
 
                 </div>
                 <div className='p-relative' >
-                    <img className="arrow1" src={arrow} alt="" />
+                    <img className="arrow1" src={arrow}  />
                 </div>
             </div>
 
@@ -120,7 +120,7 @@ function Pricing() {
                         <div className='blue-head centerdiv col-7 mb-5'>Why Montra Payment Gateway</div>
                         <div className='row centerdiv'>
                             <div className="col-5">
-                                <img src={AccountOpening} alt="" className="mb-3" />
+                                <img src={AccountOpening}  className="mb-3" />
                                 <div className="text-left-border">Accept All payment Modes</div>
                                 <div className="mt-3 col-8">
                                     With Domestic and International Credit and Debit cards,Escrow Pay, Payment Links,Pay
@@ -129,7 +129,7 @@ function Pricing() {
                             </div>
 
                             <div className="col-5">
-                                <img src={AccountOpening} alt="" className="mb-3" />
+                                <img src={AccountOpening}  className="mb-3" />
                                 <div className="text-left-border">Checkout & Global Card Saving</div>
                                 <div className="mt-3 col-8">
                                     An easy to integrate Checkout with cards saved across businesses so that
@@ -138,7 +138,7 @@ function Pricing() {
                             </div>
 
                             <div className="col-5 mt-4">
-                                <img src={AccountOpening} alt="" className="mb-3" />
+                                <img src={AccountOpening}  className="mb-3" />
                                 <div className="text-left-border">Powerful Dashboard</div>
                                 <div className="mt-3 col-8">
                                     Get reports and detailed statistics on payments, settlements,refunds
@@ -146,7 +146,7 @@ function Pricing() {
                             </div>
 
                             <div className="col-5 mt-4">
-                                <img src={AccountOpening} alt="" className="mb-3" />
+                                <img src={AccountOpening}  className="mb-3" />
                                 <div className="text-left-border">Built for Developers</div>
                                 <div className="mt-3 col-8">
                                     Robust, clean,developer friendly APls, plugins and libraries for all majorlanguages and
@@ -155,7 +155,7 @@ function Pricing() {
                             </div>
 
                             <div className="col-10 mt-4">
-                                <img src={AccountOpening} alt="" className="mb-3" />
+                                <img src={AccountOpening}  className="mb-3" />
                                 <div className="text-left-border">Robust Security</div>
                                 <div className="mt-3 col-5">
                                     PCI DSS Levellcompliant along with frequent third­ party audits anda dedicated internal
@@ -167,7 +167,7 @@ function Pricing() {
                         </div>
                     </div>
                     <div className='col-4'>
-                        <img src={ladyimg} alt='' />
+                        <img src={ladyimg}  />
                     </div>
                 </div>
             </section>

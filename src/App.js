@@ -7,6 +7,9 @@ import Help from './features/public-console/help/help';
 import Company from './features/public-console/company/company';
 import Pricing from './features/public-console/pricing/pricing';
 import Business from './features/public-console/business/business';
+import PaymentGateway from './features/public-console/payment-gateway/payment-gateway';
+import Duo from './features/public-console/duo/duo';
+import Verified from './features/public-console/verified/verified';
 
 function App() {
   return (
@@ -18,7 +21,9 @@ function App() {
         <Route path="/company" Component={Company} />
         <Route path="/pricing" Component={Pricing} />
         <Route path="/business" Component={Business} />
-
+        <Route path="/paymentGateway" Component={PaymentGateway} />
+        <Route path="/duo" Component={Duo} />
+        <Route path="/verified" Component={Verified} />
       </Routes>
       <PageFooter />
     </div>

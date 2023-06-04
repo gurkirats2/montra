@@ -1,0 +1,70 @@
+.slantDivGreen {
+    width: 100%;
+    height: 650px;
+    background-color: #E9FFE1;
+    position: absolute;
+    top: 0px;
+    transform: skewY(-7deg);
+    left: 0px;
+    transform-origin: top right;
+}
+
+
+.slant-green {
+    width: 100%;
+    height: 650px;
+    background-color: #E9FFE1;
+    position: relative;
+    color: #000
+}
+
+.green-btn {
+    background: #36CC00;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 44px;
+    padding: 0.7rem 1.5rem;
+    font-size: 17px;
+}
+
+.green {
+    color: #206606;
+}
+
+.blue-dark {
+    color: #0977D3;
+}
+
+.blue-btn {
+    background: #0A77EA;
+    border: none;
+    padding: 12px;
+    border-radius: 12px;
+    color: #fff;
+    width: 153px;
+    font-weight: 500;
+}
+
+.bg-lightgreen {
+    background-color: #E9FFE1;
+}
+
+.slantdivDarkgreen {
+  width: 100%;
+    height: 1100px;
+    background-color: #206606;
+    position: absolute;
+    top: 0px;
+    transform: skewY(-7deg);
+    left: 0px;
+    transform-origin: top right;
+}
+
+.slantDarkGreen {
+    width: 100%;
+    height: 1100px;
+    background-color: #E9FFE1;
+    position: relative;
+    color: #fff
+}

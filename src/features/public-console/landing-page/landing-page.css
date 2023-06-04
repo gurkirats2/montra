@@ -7,7 +7,7 @@
 }
 
 .text-head {
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 600;
     color: #fff;
 }
@@ -162,14 +162,14 @@ li {
 
 .arrow {
     position: absolute;
-    bottom: -78px;
+    bottom: -46px;
 }
 
 .pt22 {
     padding-top: 16rem;
 }
 
-.arrow1 {
+.arrow-b {
     position: absolute;
     bottom: -68px;
     left: 0px;
@@ -189,5 +189,5 @@ li {
 .arrowBottomDown {
     position: absolute;
     right: 0px;
-    bottom:117px
+    bottom: 117px
 }

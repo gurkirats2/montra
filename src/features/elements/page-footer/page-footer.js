@@ -24,7 +24,7 @@ function PageFooter() {
     return (
         <footer className="text-center text-lg-start bg-light text-muted bg-skyblue ht-1000 p-relative">
             <div className='p-relative' >
-                <img className="arrow-footer" src={arrow} alt="" />
+                <img className="arrow-footer" src={arrow}  />
             </div>
             <section className="z-index">
                 <div className="container text-center text-md-start pt-5">

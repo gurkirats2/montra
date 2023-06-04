@@ -33,27 +33,27 @@ function Help() {
                     <section>
                         <ul>
                             <li>
-                                <img src={wallet} alt="" className="mr-2" />
+                                <img src={wallet}  className="mr-2" />
                                 Payment
                             </li>
                             <li>
-                                <img src={bank} alt="" className="mr-2" />
+                                <img src={bank}  className="mr-2" />
                                 Banking
                             </li>
                             <li>
-                                <img src={donate} alt="" className="mr-2" />
+                                <img src={donate}  className="mr-2" />
                                 Lending
                             </li>
                             <li>
-                                <img src={shield} alt="" className="mr-2" />
+                                <img src={shield}  className="mr-2" />
                                 Insurance
                             </li>
                             <li>
-                                <img src={gold} alt="" className="mr-2" />
+                                <img src={gold}  className="mr-2" />
                                 Investment
                             </li>
                             <li>
-                                <img src={cart} alt="" className="mr-2" />
+                                <img src={cart}  className="mr-2" />
                                 Shopping
                             </li>
                         </ul>
@@ -72,7 +72,7 @@ function Help() {
                         We are here to help you
                     </div>
                     <div className='p-relative'>
-                        <img src={search} className='search-img' alt="" />
+                        <img src={search} className='search-img'  />
                         <input type="text" placeholder='Ask a questions' className='my-4 form-control' />
                         <button className='search-btn'>Search</button>
                     </div>
@@ -80,7 +80,7 @@ function Help() {
                 </section>
 
                 <div className="arrow">
-                    <img src={arrow} alt="" />
+                    <img src={arrow}  />
                 </div>
             </section>
 

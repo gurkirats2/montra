@@ -1,0 +1,82 @@
+.slantDivBlack {
+    width: 100%;
+    height: 650px;
+    background-color: #000;
+    position: absolute;
+    top: 0px;
+    transform: skewY(-7deg);
+    left: 0px;
+    transform-origin: top right;
+}
+
+.transform-top-left {
+    transform-origin: top left;
+}
+
+.slant-black {
+    width: 100%;
+    height: 650px;
+    background-color: #000;
+    position: relative;
+    color: #fff
+}
+
+.yellow-btn {
+    background: #FFC000;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 44px;
+    padding: 0.7rem 1.5rem;
+    font-size: 17px;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.tick-orange {
+    background-color: rgba(255, 192, 0, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 23px;
+    height: 23px;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+}
+
+.orange {
+    color: #FFC000;
+}
+
+.black {
+    color: #000;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.col2 {
+    flex: 0 0 18.666667%;
+    max-width: 20.666667%;
+}
+
+
+.bg-gray {
+    background-color: #F8F8F9;
+}
+
+.ht-600 {
+    height: 600px;
+}
+
+.col4 {
+    flex: 0 0 33.333333%;
+    max-width: 28.333333%;
+
+}

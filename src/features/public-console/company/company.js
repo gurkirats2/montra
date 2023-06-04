@@ -41,27 +41,27 @@ function Company() {
                     <section>
                         <ul>
                             <li>
-                                <img src={wallet} alt="" className="mr-2" />
+                                <img src={wallet}  className="mr-2" />
                                 Payment
                             </li>
                             <li>
-                                <img src={bank} alt="" className="mr-2" />
+                                <img src={bank}  className="mr-2" />
                                 Banking
                             </li>
                             <li>
-                                <img src={donate} alt="" className="mr-2" />
+                                <img src={donate}  className="mr-2" />
                                 Lending
                             </li>
                             <li>
-                                <img src={shield} alt="" className="mr-2" />
+                                <img src={shield}  className="mr-2" />
                                 Insurance
                             </li>
                             <li>
-                                <img src={gold} alt="" className="mr-2" />
+                                <img src={gold}  className="mr-2" />
                                 Investment
                             </li>
                             <li>
-                                <img src={cart} alt="" className="mr-2" />
+                                <img src={cart}  className="mr-2" />
                                 Shopping
                             </li>
                         </ul>
@@ -86,14 +86,14 @@ function Company() {
                             </div>
                         </div>
                         <div className='col-6'>
-                            <img src={companyPage} alt="" />
+                            <img src={companyPage}  />
                         </div>
 
                     </div>
                 </section>
 
                 <div className="arrow">
-                    <img src={arrow} alt="" />
+                    <img src={arrow}  />
                 </div>
             </section>
 
@@ -117,7 +117,7 @@ function Company() {
                         </section>
                     </div>
                     <div className='col-6'>
-                        <img src={companyImg} alt="" />
+                        <img src={companyImg}  />
                     </div>
                 </div>
             </section>
@@ -127,7 +127,7 @@ function Company() {
                     <div className='col-3'>
                         <div className='white-card-shadow mr-3'>
                             <div className='align-center'>
-                                <img src={access} alt="" />
+                                <img src={access}  />
                                 <div>Issuer Partners</div>
                             </div>
                         </div>
@@ -135,7 +135,7 @@ function Company() {
                     <div className='col-3'>
                         <div className='white-card-shadow mx-3'>
                             <div className='align-center'>
-                                <img src={mastercard} alt="" />
+                                <img src={mastercard}  />
                                 <div className='ml-3'>Issuer Partners</div>
                             </div>
                         </div>
@@ -143,7 +143,7 @@ function Company() {
                     <div className='col-3'>
                         <div className='white-card-shadow ml-3'>
                             <div className='align-center'>
-                                <img src={up} alt="" />
+                                <img src={up}  />
                                 <div className='ml-3'>Processing Partners</div>
                             </div>
                         </div>
