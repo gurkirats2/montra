@@ -33,27 +33,27 @@ function Help() {
                     <section>
                         <ul>
                             <li>
-                                <img src={wallet}  className="mr-2" />
+                                <img src={wallet} className="mr-2" />
                                 Payment
                             </li>
                             <li>
-                                <img src={bank}  className="mr-2" />
+                                <img src={bank} className="mr-2" />
                                 Banking
                             </li>
                             <li>
-                                <img src={donate}  className="mr-2" />
+                                <img src={donate} className="mr-2" />
                                 Lending
                             </li>
                             <li>
-                                <img src={shield}  className="mr-2" />
+                                <img src={shield} className="mr-2" />
                                 Insurance
                             </li>
                             <li>
-                                <img src={gold}  className="mr-2" />
+                                <img src={gold} className="mr-2" />
                                 Investment
                             </li>
                             <li>
-                                <img src={cart}  className="mr-2" />
+                                <img src={cart} className="mr-2" />
                                 Shopping
                             </li>
                         </ul>
@@ -72,15 +72,15 @@ function Help() {
                         We are here to help you
                     </div>
                     <div className='p-relative'>
-                        <img src={search} className='search-img'  />
+                        <img src={search} className='search-img' />
                         <input type="text" placeholder='Ask a questions' className='my-4 form-control' />
                         <button className='search-btn'>Search</button>
                     </div>
-                    <div className='font-30 white'>*We are collect your searching keywords to improve our FAQ</div>
+                    <div className='font-16 white'>*We are collect your searching keywords to improve our FAQ</div>
                 </section>
 
-                <div className="arrow">
-                    <img src={arrow}  />
+                <div className="arrow-help">
+                    <img src={arrow} />
                 </div>
             </section>
 
@@ -171,8 +171,6 @@ function Help() {
                 </div>
             </section>
         </div>
-
-
     );
 }
 

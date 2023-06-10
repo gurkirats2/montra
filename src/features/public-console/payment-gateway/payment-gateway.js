@@ -10,13 +10,27 @@ import { NavLink } from 'react-router-dom';
 import montraFinal from '../../../assets/images/montraFinal.png';
 import applelogo from '../../../assets/images/applelogo.png';
 import googleLogo from '../../../assets/images/googlePlay.png';
-import mainimg from '../../../assets/images/main-img.png'
+import mainimg from '../../../assets/images/mainPaymentGateway.png'
 import bankingBusiness from '../../../assets/images/banking-business.svg';
 import tick from '../../../assets/images/tick-icon.svg'
 import tickWhite from '../../../assets/images/tick-white.svg'
 import arrowBottom from '../../../assets/images/arrowbottom.png';
 import ladyimg from '../../../assets/images/lady-image.svg';
 import AccountOpening from '../../../assets/images/icons/AccountOpening.svg'
+import payWithCard from '../../../assets/images/pay with card.png'
+import payWithCard2 from '../../../assets/images/Pay with Cards 2.png'
+import paywithBank from '../../../assets/images/Pay with banks img2.png'
+import paywithBank1 from '../../../assets/images/Pay with banks img1.png'
+import PaywithQR from '../../../assets/images/Pay with QR.png'
+import PaywithQR2 from '../../../assets/images/Pay with QR 2.png'
+import payWithMontra from '../../../assets/images/Pay with Montra.png'
+import payWithLoan from '../../../assets/images/Pay with loan.png'
+import girlwithphone from '../../../assets/images/girlwithphone.png';
+import Checkout from '../../../assets/images/Checkout & Global Card Saving.svg';
+import builtDevelopers from '../../../assets/images/Built for Developers.svg';
+import acceptAll from '../../../assets/images/Accept All payment Modes.svg';
+import powerfulDashboard from '../../../assets/images/Powerful Dashboard.svg';
+import robustSecurity from '../../../assets/images/Robust Security.svg';
 
 function PaymentGateway() {
     return (
@@ -73,9 +87,9 @@ function PaymentGateway() {
                     </section>
                 </div>
                 <div className='row z-index h-100'>
-                    <div className='col-6 pl8 centerdiv flex-col1'>
+                    <div className='col-5 pl8 centerdiv flex-col1'>
                         <div className="text-head">
-                            Power your business <br /> with Montra <br /> Payment Gateway
+                            Power your business  with Montra Payment Gateway
                         </div>
                         <div class="text-description py-3">
                             With the easiest integration, completely online <br /> onboarding,
@@ -88,21 +102,22 @@ function PaymentGateway() {
                             <img src={googleLogo} className="pl-1" />
                         </button>
                     </div>
-                    <div className='col-6 centerdiv align-center'>
-                        <img src={mainimg} width={'100%'} />
+                    <div className='col-7 p-relative'>
+                        <div class="payment-img">
+                            <img src={mainimg} width={'100%'} />
+                        </div>
                     </div>
                 </div>
                 <div className='slantdivBusiness'>
+                    <img className="arrow" src={arrow} />
 
                 </div>
-                <div className='p-relative' >
-                    <img className="arrow1" src={arrow} />
-                </div>
+
             </div>
 
             {/* section 2 */}
             <section class="pl8 my-15">
-                <div className="row pt7">
+                <div className="row pt7 align-center">
                     <div className="col-6">
                         <div className="payment-head align-center"><img src={wallet} className="mr-2" />Pay with card</div>
                         <div className="payment-description fw-700 py-3">
@@ -131,7 +146,7 @@ function PaymentGateway() {
                         </div>
                     </div>
                     <div className="col-6">
-                        <img src={bankingBusiness} className="ml-2" />
+                        <img src={payWithCard} className="ml-2" />
                     </div>
                 </div>
 
@@ -140,12 +155,12 @@ function PaymentGateway() {
 
             {/* section 3 */}
             <section class="pl8 my-15">
-                <div className="row">
-                    <div className="col-6">
-                        <img src={bankingBusiness} className="ml-2" />
+                <div className="row align-center">
+                    <div className="col-5">
+                        <img src={payWithCard2} className="ml-2" />
                     </div>
-                    <div className="col-6">
-                        <div className="payment-head align-center"><img src={wallet} className="mr-2" />Pay with card</div>
+                    <div className="col-7">
+                        <div className="payment-head align-center"><img src={wallet} className="mr-2" />Pay with cards</div>
                         <div className="payment-description fw-700 py-3">
                             Merchant Stores enabled with QR  <br /> code payments from Montra  <br /> customers using their Montra apps
                         </div>
@@ -188,7 +203,7 @@ function PaymentGateway() {
                             process towards making <br />payment.
                         </div>
                         <div className='mt-5'>
-                            <img src={bankingBusiness} width="30%" className="ml-2" />
+                            <img src={paywithBank1} width="30%" className="ml-2" />
                         </div>
                     </div>
                     <div className="col-6">
@@ -207,7 +222,7 @@ function PaymentGateway() {
                                 Cutomers can make payment from the bank accounts they have <br /> linked on their Montra app                            </div>
                         </div>
                         <div className='mt-5'>
-                            <img src={bankingBusiness} width="30%" className="ml-2" />
+                            <img src={paywithBank} width="30%" className="ml-2" />
                         </div>
                     </div>
                 </div>
@@ -216,8 +231,8 @@ function PaymentGateway() {
             </div>
 
             {/* section 5 */}
-            <section class="pl8 my-15">
-                <div className="row pt7">
+            <section class="pl8 mt-15 mb-10">
+                <div className="row  align-center">
                     <div className="col-6">
                         <div className="payment-head align-center"><img src={wallet} className="mr-2" />
                             Pay with QR</div>
@@ -235,22 +250,20 @@ function PaymentGateway() {
                                 bank’s mobile banking app.pp
                             </div>
                         </div>
-
-
                     </div>
                     <div className="col-6">
-                        <img src={bankingBusiness} className="ml-2" />
+                        <img src={PaywithQR} className="ml-2" />
                     </div>
                 </div>
             </section>
 
             {/* section 6 */}
             <section class="pl8 ">
-                <div className="row">
-                    <div className="col-6">
-                        <img src={bankingBusiness} className="ml-2" />
+                <div className="row align-center">
+                    <div className="col-5">
+                        <img src={PaywithQR2} className="ml-2" />
                     </div>
-                    <div className="col-6">
+                    <div className="col-7">
                         <div className="payment-head align-center"><img src={wallet} className="mr-2" />Pay with QR</div>
                         <div className="payment-description fw-700 py-3">
                             Merchant Stores enabled with QR  <br /> code payments from Montra  <br /> customers using their Montra apps
@@ -273,11 +286,9 @@ function PaymentGateway() {
             {/* section 7 */}
 
             <div className='slantdiv-skyblue pl8 pt-15 py-6 p-relative'>
-                <div className='arrowBottom-1'>
-                    <img src={arrowBottom} />
-                </div>
+
                 <div className="row pt-5 z-index">
-                    <div className="col-6 box-center">
+                    <div className="col-5 box-center">
 
                         <div className="payment-head"><img src={donate} className="mr-2" />Pay with Montra</div>
                         <div className="payment-description  py-3">
@@ -294,29 +305,21 @@ function PaymentGateway() {
                         </div>
                     </div>
 
-                    <div className="col-6">
-                        <img src={bankingBusiness} width="30%" className="ml-2" />
-                        <img src={bankingBusiness} width="30%" className="ml-2" />
-                        <img src={bankingBusiness} width="30%" className="ml-2" />
-
+                    <div className="col-7">
+                        <img src={payWithMontra} width="90%" className="ml-2" />
                     </div>
                 </div>
                 <div className='slant-skyblue'>
+                    <img className="arrow" src={arrow} />
+
                 </div>
             </div>
 
             {/* section 8 */}
-            <div className=' pl8 pt-15 py-6 p-relative'>
-                <div className='arrowBottom-1'>
-                    <img src={arrowBottom} />
-                </div>
-
+            <div className='pl-5 pt-15 mt-5 py-6 p-relative'>
                 <div className="row pt-5 z-index">
                     <div className="col-6">
-                        <img src={bankingBusiness} width="30%" className="ml-2" />
-                        <img src={bankingBusiness} width="30%" className="ml-2" />
-                        <img src={bankingBusiness} width="30%" className="ml-2" />
-
+                        <img src={payWithLoan} width="90%" className="ml-2" />
                     </div>
                     <div className="col-6 box-center">
                         <div className="payment-head"><img src={donate} className="mr-2" />Pay with loan</div>
@@ -337,47 +340,48 @@ function PaymentGateway() {
 
             {/* section 9 */}
             <section className='slant-business-1 bg-white mb-5'>
-                <div className='row align-center z-index'>
-                    <div className='col-8'>
-                        <div className='blue-head centerdiv col-7 mb-5'>Why Montra Payment Gateway</div>
-                        <div className='row centerdiv'>
-                            <div className="col-5">
-                                <img src={AccountOpening} className="mb-3" />
+                <div className='row align-center pl8 py-6 z-index'>
+                    <div className='col-7'>
+                        <div className='row'>
+                            <div className='blue-head white mb-4'>Why Montra Payment Gateway</div>
+
+                            <div className="col-6">
+                                <img src={acceptAll} className="mb-3" />
                                 <div className="text-left-border-white">Accept All payment Modes</div>
-                                <div className="mt-3 col-8">
+                                <div className="mt-3 col-10">
                                     With Domestic and International Credit and Debit cards,Escrow Pay, Payment Links,Pay
                                     with Montra and net banking with most of the banks, Montra provides the most extensive
                                     set of payment methods                                </div>
                             </div>
 
-                            <div className="col-5">
-                                <img src={AccountOpening} className="mb-3" />
+                            <div className="col-6">
+                                <img src={Checkout} className="mb-3" />
                                 <div className="text-left-border-white">Checkout & Global Card Saving</div>
-                                <div className="mt-3 col-8">
+                                <div className="mt-3 col-10">
                                     An easy to integrate Checkout with cards saved across businesses so that
                                     your customers can pay seamlessly everywhere.
                                 </div>
                             </div>
 
-                            <div className="col-5 mt-4">
-                                <img src={AccountOpening} className="mb-3" />
+                            <div className="col-6 mt-4">
+                                <img src={powerfulDashboard} className="mb-3" />
                                 <div className="text-left-border-white">Powerful Dashboard</div>
-                                <div className="mt-3 col-8">
+                                <div className="mt-3 col-10">
                                     Get reports and detailed statistics on payments, settlements,refunds
                                     and much more for you to take better business decisions                                </div>
                             </div>
 
-                            <div className="col-5 mt-4">
-                                <img src={AccountOpening} className="mb-3" />
+                            <div className="col-6 mt-4">
+                                <img src={builtDevelopers} className="mb-3" />
                                 <div className="text-left-border-white">Built for Developers</div>
-                                <div className="mt-3 col-8">
+                                <div className="mt-3 col-10">
                                     Robust, clean,developer friendly APls, plugins and libraries for all majorlanguages and
                                     platforms that let you focus on building great products
                                 </div>
                             </div>
 
                             <div className="col-10 mt-4">
-                                <img src={AccountOpening} className="mb-3" />
+                                <img src={robustSecurity} className="mb-3" />
                                 <div className="text-left-border-white">Robust Security</div>
                                 <div className="mt-3 col-5">
                                     PCI DSS Levellcompliant along with frequent third­ party audits anda dedicated internal
@@ -386,8 +390,11 @@ function PaymentGateway() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-4'>
-                        <img src={ladyimg} />
+                    <div className='col-5 p-relative'>
+                        <img src={girlwithphone} className='mt-58' />
+                        <div className="arrowBottomDown bottom1">
+                            <img src={arrow} />
+                        </div>
                     </div>
                 </div>
                 <div className='slantdivBusiness-1'>

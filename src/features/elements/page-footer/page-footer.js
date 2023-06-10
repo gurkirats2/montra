@@ -2,6 +2,11 @@ import React, { useState, useEffect } from 'react'
 import logo from '../../../assets/images/montra_logo.png'
 import './page-footer.css';
 import arrow from '../../../assets/images/arrow.png'
+import facebook from '../../../assets/images/facebook.png'
+import linkedin from '../../../assets/images/linkedin.png'
+import net from '../../../assets/images/net.png'
+import twitter from '../../../assets/images/twitter.png'
+import google from '../../../assets/images/google.png'
 
 function PageFooter() {
     const [country, setCountry] = useState("India");
@@ -24,17 +29,17 @@ function PageFooter() {
     return (
         <footer className="text-center text-lg-start bg-light text-muted bg-skyblue ht-1000 p-relative">
             <div className='p-relative' >
-                <img className="arrow-footer" src={arrow}  />
+                <img className="arrow-footer" src={arrow} />
             </div>
             <section className="z-index">
                 <div className="container text-center text-md-start pt-5">
                     <div className="row pt-5">
                         {/* 1st column */}
-                        <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <div className="col-md-3 col-lg-4 col-xl-3 text-left mx-auto mb-4">
                             <h6 className="text-uppercase fw-bold mb-4">
                                 <img src={logo} alt='montra-logo' />
                             </h6>
-                            <div className="location"><i class="fa fa-map-marker"></i>Montra, Inc. United States</div>
+                            <div className="location">Montra, Inc. United States</div>
                             <div className='logo'>
                                 <div className="csm_address"> Montra introduces innovative products solutions that promote Financial
                                     Inclusion across emerging economies towards transition from cash to digital payments
@@ -48,12 +53,12 @@ function PageFooter() {
 
                             <section id="lab_social_icon_footer">
                                 <div class="container">
-                                    <div class="text-center center-block">
-                                        <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
-                                        <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
-                                        <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
-                                        <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
-                                    </div>
+                                    <img src={facebook} />
+                                    <img src={linkedin} className='mx-2' />
+                                    <img src={net} />
+                                    <img src={google} className='mx-2' />
+                                    <img src={twitter} />
+
                                 </div>
                             </section>
 
@@ -225,15 +230,15 @@ function PageFooter() {
                 </div>
             </section>
             <hr size="2" width="82%" color="black" className='z-index'></hr>
-            <section className="center p-4 border-bottom z-index">
+            <section className="center p-4 border-bottom z-index fw-500">
                 <div className="out_footer black">
                     <ul>
                         <li> <img style={{ "width": "20px", "marginLeft": '5px' }} className="mr-2" src={flag} alt="flag" srcset="" />  {country || "Nigeria"}</li>
-                        <li className='black'>Privacy policy</li>
-                        <li className='black'>Terms of use</li>
-                        <li className='black'>Cookie policy</li>
-                        <li className='black'>Merchant service agreement</li>
-                        <li className='black'>Payment protection promise</li>
+                        <li className='black fw-500'>Privacy policy</li>
+                        <li className='black fw-500'>Terms of use</li>
+                        <li className='black fw-500'>Cookie policy</li>
+                        <li className='black fw-500'>Merchant service agreement</li>
+                        <li className='black fw-500'>Payment protection promise</li>
                     </ul>
                 </div>
             </section>

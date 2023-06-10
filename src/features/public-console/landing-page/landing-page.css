@@ -71,7 +71,7 @@ li {
 
 .payment-description {
     color: #1E336B;
-    font-size: 30px;
+    font-size: 38px;
 }
 
 .iphone-img {
@@ -124,11 +124,12 @@ li {
     height: 540px;
 }
 
+
 .bg-agency-banking {
     background-image: url('../../../assets/images/agency-banking.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: 500px;
 }
 
@@ -162,7 +163,8 @@ li {
 
 .arrow {
     position: absolute;
-    bottom: -46px;
+    bottom: -108px;
+    transform: skewY(7deg)
 }
 
 .pt22 {
@@ -183,11 +185,70 @@ li {
 .arrowBottom {
     position: absolute;
     right: 0;
-    top: -50px;
+    top: -68px;
 }
 
 .arrowBottomDown {
     position: absolute;
+    right: -65px;
+    bottom: 101px;
+    z-index: 10;
+
+}
+
+.mt-15 {
+    margin-top: 15rem;
+}
+
+.mb-15 {
+    margin-bottom: 15rem;
+}
+
+.main-img {
+    position: absolute;
     right: 0px;
-    bottom: 117px
+    top: -71px;
+}
+
+.slant-lending {
+    width: 100%;
+    height: 1400px;
+    background-color: #EBF7FF;
+    position: relative;
+    color: #fff
+}
+
+.slant-shopping {
+    width: 100%;
+    height: 1100px;
+    background-color: #EBF7FF;
+    position: relative;
+    color: #fff
+}
+
+.slantDivShopping {
+    width: 100%;
+    height: 1100px;
+    background-color: #1E336B;
+    position: absolute;
+    top: 0px;
+    transform: skewY(-7deg);
+    left: 0px;
+    transform-origin: top right;
+}
+
+.slantdivLending {
+    width: 100%;
+    height: 1400px;
+    background-color: #1E336B;
+    position: absolute;
+    top: 0px;
+    transform: skewY(-7deg);
+    left: 0px;
+    transform-origin: top right;
+}
+
+.py-10 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }

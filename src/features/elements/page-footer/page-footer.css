@@ -19,6 +19,7 @@ p.sub_text {
     color: #1e336b;
     font-size: 16px;
     line-height: 140%;
+    font-weight: 500;
 }
 
 i.fa.fa-map-marker {
@@ -29,6 +30,7 @@ i.fa.fa-map-marker {
     color: #1e336b;
     font-size: 16px;
     line-height: 140%;
+    font-weight: 500;
 }
 
 .sub_text {
@@ -119,7 +121,7 @@ ul {
 }
 
 .bg-skyblue {
-    background-color: #EBF2F9;
+    background: #EBF7FF;
     position: relative;
 }
 

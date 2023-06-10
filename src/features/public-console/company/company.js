@@ -20,9 +20,9 @@ import up from '../../../assets/images/UP.svg'
 function Company() {
     return (
         <div className="">
-            <section className="bg-section-first p-relative">
+            <section className="slant-business ht-750">
                 {/* page-header-2 */}
-                <div className="justify-between pad-section align-center">
+                <div className="justify-between pad-section align-center z-index">
                     <section>
                         <div className="tabs">
                             <span className="active">
@@ -41,27 +41,27 @@ function Company() {
                     <section>
                         <ul>
                             <li>
-                                <img src={wallet}  className="mr-2" />
+                                <img src={wallet} className="mr-2" />
                                 Payment
                             </li>
                             <li>
-                                <img src={bank}  className="mr-2" />
+                                <img src={bank} className="mr-2" />
                                 Banking
                             </li>
                             <li>
-                                <img src={donate}  className="mr-2" />
+                                <img src={donate} className="mr-2" />
                                 Lending
                             </li>
                             <li>
-                                <img src={shield}  className="mr-2" />
+                                <img src={shield} className="mr-2" />
                                 Insurance
                             </li>
                             <li>
-                                <img src={gold}  className="mr-2" />
+                                <img src={gold} className="mr-2" />
                                 Investment
                             </li>
                             <li>
-                                <img src={cart}  className="mr-2" />
+                                <img src={cart} className="mr-2" />
                                 Shopping
                             </li>
                         </ul>
@@ -75,7 +75,7 @@ function Company() {
 
                 </div>
 
-                <section className='centerdiv help'>
+                <section className='centerdiv help z-index'>
                     <div className='row'>
                         <div className='col-6'>
                             <div className='txt-white'>
@@ -86,18 +86,17 @@ function Company() {
                             </div>
                         </div>
                         <div className='col-6'>
-                            <img src={companyPage}  />
+                            <img src={companyPage} />
                         </div>
 
                     </div>
                 </section>
-
-                <div className="arrow">
-                    <img src={arrow}  />
+                <div className='slantdivBusiness ht-750'>
+                    <img className="arrow" src={arrow} />
                 </div>
             </section>
 
-            <section>
+            <section className='mt-15 pt-5'>
                 <div className='row mt-5'>
                     <div className='col-6 centerdiv flex-col'>
                         <section className='w-50'>
@@ -117,7 +116,7 @@ function Company() {
                         </section>
                     </div>
                     <div className='col-6'>
-                        <img src={companyImg}  />
+                        <img src={companyImg} />
                     </div>
                 </div>
             </section>
@@ -127,7 +126,7 @@ function Company() {
                     <div className='col-3'>
                         <div className='white-card-shadow mr-3'>
                             <div className='align-center'>
-                                <img src={access}  />
+                                <img src={access} />
                                 <div>Issuer Partners</div>
                             </div>
                         </div>
@@ -135,7 +134,7 @@ function Company() {
                     <div className='col-3'>
                         <div className='white-card-shadow mx-3'>
                             <div className='align-center'>
-                                <img src={mastercard}  />
+                                <img src={mastercard} />
                                 <div className='ml-3'>Issuer Partners</div>
                             </div>
                         </div>
@@ -143,7 +142,7 @@ function Company() {
                     <div className='col-3'>
                         <div className='white-card-shadow ml-3'>
                             <div className='align-center'>
-                                <img src={up}  />
+                                <img src={up} />
                                 <div className='ml-3'>Processing Partners</div>
                             </div>
                         </div>

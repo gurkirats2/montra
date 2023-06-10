@@ -68,6 +68,14 @@ input::placeholder {
     text-align: left;
 }
 
-.mb15{
-    margin-bottom:15rem;
+.mb15 {
+    margin-bottom: 15rem;
+}
+
+.arrow-help {
+    position: absolute;
+    bottom: -77px;
+}
+.mt-10{
+    margin-top:10rem;
 }

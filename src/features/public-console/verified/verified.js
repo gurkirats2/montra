@@ -1,10 +1,11 @@
 import arrow from '../../../assets/images/arrow.png'
 import './verified.css'
-import mainimg from '../../../assets/images/main-img.png'
+import mainimg from '../../../assets/images/verifiy-main-img.png'
 import montraFinal from '../../../assets/images/montraFinal.png';
 import applelogo from '../../../assets/images/applelogo.png';
 import googleLogo from '../../../assets/images/googlePlay.png';
 import bankingBusiness from '../../../assets/images/banking-business.svg';
+import verified from '../../../assets/images/verified.png';
 
 function Verified() {
 
@@ -13,6 +14,9 @@ function Verified() {
             {/* section 1 */}
             <div className='slant-green'>
                 <div className="justify-between pad-section align-center">
+                    <div>
+                        <img src={verified} />
+                    </div>
                     <section>
                         <ul>
                             <li className='black'>
@@ -51,11 +55,12 @@ function Verified() {
                 <div className='row z-index h-100'>
                     <div className='col-6 pl8 centerdiv flex-col1'>
                         <div className="text-head black">
-                            Enjoy DUO Card  <br />
-                            Experience with both  <br /> Credit and Debit  <br /> Cards in a single card
+                            Soft Token <br />
+                            158 107
                         </div>
-                        <div class="text-description py-3 black">
-                            An innovation enabling credit card usage from any <br /> existing Debit Card
+                        <div class="text-description py-3 black col-8 fw-500">
+                            When you enable 2-Step Verification (also known as two-factor authentication), 
+                            you add an extra layer of security to your account.
                         </div>
                         <button className="download-btn white w-40 ">Download
                             <img src={montraFinal} className="px-1" />
